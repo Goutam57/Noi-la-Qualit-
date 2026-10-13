@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="it" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalogo Prodotti 2026 · Noi, la Qualità</title>
+<meta name="description" content="Gruppo Noi, la Qualità S.r.l. — Distribuzione all'ingrosso di prodotti alimentari italiani d'eccellenza. Catalogo 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/animations.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body class="no-scroll">
+<div class="loader" id="loader">
+<div class="loader-bg"></div>
+<div class="loader-content">
+<svg class="loader-logo-svg" viewBox="0 0 200 130" xmlns="http://www.w3.org/2000/svg">
+<path class="wave wave-teal" d="M 10 50 Q 50 30, 90 50 T 170 50"/>
+<path class="wave wave-teal" d="M 10 62 Q 50 42, 90 62 T 170 62" opacity=".6"/>
+<circle class="globe" cx="100" cy="75" r="22"/>
+<ellipse class="globe-shine" cx="92" cy="68" rx="8" ry="5"/>
+<path class="wave wave-gold" d="M 130 75 Q 160 55, 190 75"/>
+<path class="wave wave-gold" d="M 130 87 Q 160 67, 190 87" opacity=".6"/>
+</svg>
+<div class="loader-text">Noi, la Qualità</div>
+<div class="loader-sub">Golosaqualità · Dal 1911</div>
+<div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+</div>
+<header class="site-header" id="siteHeader">
+<div class="header-top">
+<div class="container header-top-inner">
+<div class="header-top-left">
+<a href="tel:+390666995093"><i class="fas fa-phone"></i> +39 06 66995093</a>
+<a href="tel:+393791413514" class="hide-mobile"><i class="fas fa-mobile-alt"></i> +39 379 141 3514</a>
+<a href="mailto:info@noilaqualita.it"><i class="fas fa-envelope"></i> info@noilaqualita.it</a>
+</div>
+<div class="header-top-right"><span class="tagline-top"><i class="fas fa-award"></i> <span data-i18n="top.tagline">Distribuzione all'ingrosso dal 1911</span></span></div>
+</div>
+</div>
+<div class="header-main">
+<div class="container header-main-inner">
+<a href="index.html" class="logo"><img src="assets/images/logo-noilaqualita.svg" alt="Noi, la Qualità" class="logo-img"></a>
+<nav class="main-nav">
+<a href="index.html" class="nav-link " data-i18n="nav.home">Home</a>
+<a href="catalogo.html" class="nav-link active" data-i18n="nav.catalog">Catalogo</a>
+<a href="brand.html" class="nav-link " data-i18n="nav.brand">Brand</a>
+<a href="storia.html" class="nav-link " data-i18n="nav.story">Storia</a>
+<a href="contatti.html" class="nav-link " data-i18n="nav.contact">Contatti</a>
+</nav>
+<div class="header-actions">
+<div class="lang-pill">
+<button class="lang-btn active" data-lang="it">IT</button>
+<button class="lang-btn" data-lang="en">EN</button>
+</div>
+<button class="icon-btn"><i class="fas fa-search"></i></button>
+<button class="icon-btn"><i class="far fa-heart"></i><span class="dot"></span></button>
+<a href="contatti.html" class="btn-header-cta"><i class="fas fa-phone-volume"></i> <span data-i18n="header.cta">Richiedi listino</span></a>
+<button class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></i></button>
+</div>
+</div>
+</div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+<button class="mobile-menu-close" id="mobileClose"><i class="fas fa-times"></i></button>
+<div class="mobile-menu-logo"><img src="assets/images/logo-noilaqualita.svg" alt="Logo"></div>
+<ul class="mobile-nav">
+<li><a href="index.html" data-i18n="nav.home">Home</a></li>
+<li><a href="catalogo.html" data-i18n="nav.catalog">Catalogo</a></li>
+<li><a href="brand.html" data-i18n="nav.brand">Brand</a></li>
+<li><a href="storia.html" data-i18n="nav.story">Storia</a></li>
+<li><a href="contatti.html" data-i18n="nav.contact">Contatti</a></li>
+</ul>
+<div class="mobile-menu-contact">
+<a href="tel:+390666995093"><i class="fas fa-phone"></i> +39 06 66995093</a>
+<a href="tel:+393791413514"><i class="fas fa-mobile-alt"></i> +39 379 141 3514</a>
+<a href="mailto:info@noilaqualita.it"><i class="fas fa-envelope"></i> info@noilaqualita.it</a>
+</div>
+</div>
+<main id="top">
+
+<section class="page-hero">
+<div class="hero-mesh"></div>
+<div class="hero-noise"></div>
+<div class="container" style="position:relative;z-index:2;">
+<h1>Catalogo <span class="gradient-text">Prodotti 2026</span></h1>
+<p>Oltre 500 referenze suddivise per categoria. Contatta il nostro ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="breadcrumbs"><a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> <span>Catalogo</span></div>
+<div class="catalog-stats">
+<div class="catalog-stat"><div class="num"><span class="counter" data-target="500">0</span>+</div><div class="lbl">Referenze</div></div>
+<div class="catalog-stat"><div class="num"><span class="counter" data-target="10">0</span></div><div class="lbl">Categorie</div></div>
+<div class="catalog-stat"><div class="num"><span class="counter" data-target="80">0</span>+</div><div class="lbl">Produttori</div></div>
+</div>
+</div>
+</section>
+
+<section class="section categories-section" style="background:var(--cream);">
+<div class="container">
+<div class="section-header reveal">
+<span class="eyebrow">Filtra per categoria</span>
+<h2>Esplora il <span class="accent">catalogo</span></h2>
+<p>Clicca su un prodotto per vedere i dettagli. Contatta l'ufficio commerciale per il listino completo.</p>
+</div>
+<div class="filter-tabs reveal">
+<button class="filter-tab active" data-filter="all"><i class="fas fa-th-large"></i> Tutti</button>
+<button class="filter-tab" data-filter="pasta"><i class="fas fa-wheat-awn"></i> Pasta & Riso</button>
+<button class="filter-tab" data-filter="salumi"><i class="fas fa-drumstick-bite"></i> Salumi</button>
+<button class="filter-tab" data-filter="formaggi"><i class="fas fa-cheese"></i> Formaggi</button>
+<button class="filter-tab" data-filter="dispensa"><i class="fas fa-jar"></i> Dispensa</button>
+<button class="filter-tab" data-filter="alcolici"><i class="fas fa-wine-bottle"></i> Alcolici</button>
+</div>
+<div class="product-grid">
+<article class="product-card reveal d1" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=1400&q=85&auto=format&fit=crop" data-title="NQE208 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQE208, formato 500g. Origine: Italia." data-category="Pasta" data-code="NQE208" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&q=80&auto=format&fit=crop" alt="NQE208" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQE208</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQE208</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=1400&q=85&auto=format&fit=crop" data-title="NQE209 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQE209, formato 500g. Origine: Campania." data-category="Pasta" data-code="NQE209" data-size="500g" data-origin="Campania">
+<img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80&auto=format&fit=crop" alt="NQE209" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQE209</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQE209</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Campania</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1551462147-37885acc36f1?w=1400&q=85&auto=format&fit=crop" data-title="NQE202 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQE202, formato 500g. Origine: Italia." data-category="Pasta" data-code="NQE202" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1551462147-37885acc36f1?w=800&q=80&auto=format&fit=crop" alt="NQE202" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQE202</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQE202</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=1400&q=85&auto=format&fit=crop" data-title="NQE205 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQE205, formato 500g. Origine: Italia." data-category="Pasta" data-code="NQE205" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80&auto=format&fit=crop" alt="NQE205" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQE205</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQE205</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=1400&q=85&auto=format&fit=crop" data-title="NQE213 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQE213, formato 500g. Origine: Campania." data-category="Pasta" data-code="NQE213" data-size="500g" data-origin="Campania">
+<img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&q=80&auto=format&fit=crop" alt="NQE213" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQE213</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQE213</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Campania</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=1400&q=85&auto=format&fit=crop" data-title="NQE207 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQE207, formato 500g. Origine: Italia." data-category="Pasta" data-code="NQE207" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=800&q=80&auto=format&fit=crop" alt="NQE207" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQE207</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQE207</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=1400&q=85&auto=format&fit=crop" data-title="NQE210 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQE210, formato 500g. Origine: Italia." data-category="Pasta" data-code="NQE210" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=800&q=80&auto=format&fit=crop" alt="NQE210" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQE210</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQE210</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1551462147-37885acc36f1?w=1400&q=85&auto=format&fit=crop" data-title="NQE216 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQE216, formato 500g. Origine: Italia." data-category="Pasta" data-code="NQE216" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1551462147-37885acc36f1?w=800&q=80&auto=format&fit=crop" alt="NQE216" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQE216</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQE216</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=1400&q=85&auto=format&fit=crop" data-title="NQBM1203 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQBM1203, formato 250g. Origine: Marche." data-category="Pasta" data-code="NQBM1203" data-size="250g" data-origin="Marche">
+<img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=800&q=80&auto=format&fit=crop" alt="NQBM1203" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQBM1203</span><span class="badge badge-code">250g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQBM1203</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Marche</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1551462147-37885acc36f1?w=1400&q=85&auto=format&fit=crop" data-title="NQBM1201 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQBM1201, formato 250g. Origine: Marche." data-category="Pasta" data-code="NQBM1201" data-size="250g" data-origin="Marche">
+<img src="https://images.unsplash.com/photo-1551462147-37885acc36f1?w=800&q=80&auto=format&fit=crop" alt="NQBM1201" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQBM1201</span><span class="badge badge-code">250g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQBM1201</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Marche</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=1400&q=85&auto=format&fit=crop" data-title="NQRA1101 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQRA1101, formato 1kg. Origine: Italia." data-category="Pasta" data-code="NQRA1101" data-size="1kg" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&q=80&auto=format&fit=crop" alt="NQRA1101" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQRA1101</span><span class="badge badge-code">1kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQRA1101</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="pasta">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=1400&q=85&auto=format&fit=crop" data-title="NQRA1102 · Pasta" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQRA1102, formato 1kg. Origine: Italia." data-category="Pasta" data-code="NQRA1102" data-size="1kg" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&q=80&auto=format&fit=crop" alt="NQRA1102" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQRA1102</span><span class="badge badge-code">1kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Pasta</span>
+<h3>NQRA1102</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="salumi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1400&q=85&auto=format&fit=crop" data-title="NQS407 · Salumi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQS407, formato 7-8,5 kg. Origine: Parma." data-category="Salumi" data-code="NQS407" data-size="7-8,5 kg" data-origin="Parma">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80&auto=format&fit=crop" alt="NQS407" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQS407</span><span class="badge badge-code">7-8,5 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Salumi</span>
+<h3>NQS407</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Parma</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="salumi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1400&q=85&auto=format&fit=crop" data-title="NQS421 · Salumi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQS421, formato 6-9 kg. Origine: Italia." data-category="Salumi" data-code="NQS421" data-size="6-9 kg" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80&auto=format&fit=crop" alt="NQS421" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQS421</span><span class="badge badge-code">6-9 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Salumi</span>
+<h3>NQS421</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="salumi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1400&q=85&auto=format&fit=crop" data-title="NQS401 · Salumi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQS401, formato 0,2-0,3 kg. Origine: Italia." data-category="Salumi" data-code="NQS401" data-size="0,2-0,3 kg" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80&auto=format&fit=crop" alt="NQS401" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQS401</span><span class="badge badge-code">0,2-0,3 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Salumi</span>
+<h3>NQS401</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="salumi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1400&q=85&auto=format&fit=crop" data-title="NQS403 · Salumi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQS403, formato 6 kg. Origine: Italia." data-category="Salumi" data-code="NQS403" data-size="6 kg" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80&auto=format&fit=crop" alt="NQS403" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQS403</span><span class="badge badge-code">6 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Salumi</span>
+<h3>NQS403</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="salumi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1400&q=85&auto=format&fit=crop" data-title="NQP501 · Salumi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQP501, formato 6-9 kg. Origine: San Daniele." data-category="Salumi" data-code="NQP501" data-size="6-9 kg" data-origin="San Daniele">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80&auto=format&fit=crop" alt="NQP501" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQP501</span><span class="badge badge-code">6-9 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Salumi</span>
+<h3>NQP501</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> San Daniele</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="formaggi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1400&q=85&auto=format&fit=crop" data-title="NQF903 · Formaggi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQF903, formato 1,6 kg. Origine: Italia Meridionale." data-category="Formaggi" data-code="NQF903" data-size="1,6 kg" data-origin="Italia Meridionale">
+<img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80&auto=format&fit=crop" alt="NQF903" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQF903</span><span class="badge badge-code">1,6 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Formaggi</span>
+<h3>NQF903</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia Meridionale</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="formaggi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1400&q=85&auto=format&fit=crop" data-title="NQF905 · Formaggi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQF905, formato 1,6 kg. Origine: Italia." data-category="Formaggi" data-code="NQF905" data-size="1,6 kg" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80&auto=format&fit=crop" alt="NQF905" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQF905</span><span class="badge badge-code">1,6 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Formaggi</span>
+<h3>NQF905</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="formaggi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1400&q=85&auto=format&fit=crop" data-title="NQF906 · Formaggi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQF906, formato 1,3 kg. Origine: Italia." data-category="Formaggi" data-code="NQF906" data-size="1,3 kg" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80&auto=format&fit=crop" alt="NQF906" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQF906</span><span class="badge badge-code">1,3 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Formaggi</span>
+<h3>NQF906</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="formaggi">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=1400&q=85&auto=format&fit=crop" data-title="NQTR1719 · Formaggi" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQTR1719, formato 4-5 kg. Origine: Lazio." data-category="Formaggi" data-code="NQTR1719" data-size="4-5 kg" data-origin="Lazio">
+<img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=800&q=80&auto=format&fit=crop" alt="NQTR1719" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQTR1719</span><span class="badge badge-code">4-5 kg</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Formaggi</span>
+<h3>NQTR1719</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Lazio</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="dispensa">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=1400&q=85&auto=format&fit=crop" data-title="NQAF008 · Dispensa" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQAF008, formato 500g. Origine: Italia." data-category="Dispensa" data-code="NQAF008" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80&auto=format&fit=crop" alt="NQAF008" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQAF008</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Dispensa</span>
+<h3>NQAF008</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="dispensa">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=1400&q=85&auto=format&fit=crop" data-title="NQAF004 · Dispensa" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQAF004, formato 500g. Origine: Italia." data-category="Dispensa" data-code="NQAF004" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80&auto=format&fit=crop" alt="NQAF004" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQAF004</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Dispensa</span>
+<h3>NQAF004</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="dispensa">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=1400&q=85&auto=format&fit=crop" data-title="NQC1401 · Dispensa" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQC1401, formato 500g. Origine: Italia." data-category="Dispensa" data-code="NQC1401" data-size="500g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&q=80&auto=format&fit=crop" alt="NQC1401" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQC1401</span><span class="badge badge-code">500g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Dispensa</span>
+<h3>NQC1401</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="dispensa">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=1400&q=85&auto=format&fit=crop" data-title="NQC1421 · Dispensa" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQC1421, formato 580g. Origine: Italia." data-category="Dispensa" data-code="NQC1421" data-size="580g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&q=80&auto=format&fit=crop" alt="NQC1421" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQC1421</span><span class="badge badge-code">580g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Dispensa</span>
+<h3>NQC1421</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="dispensa">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1400&q=85&auto=format&fit=crop" data-title="NQMT1301 · Dispensa" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQMT1301, formato 90g. Origine: Italia." data-category="Dispensa" data-code="NQMT1301" data-size="90g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&q=80&auto=format&fit=crop" alt="NQMT1301" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQMT1301</span><span class="badge badge-code">90g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Dispensa</span>
+<h3>NQMT1301</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="dispensa">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=1400&q=85&auto=format&fit=crop" data-title="NQMT1310 · Dispensa" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQMT1310, formato 90g. Origine: Italia." data-category="Dispensa" data-code="NQMT1310" data-size="90g" data-origin="Italia">
+<img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&q=80&auto=format&fit=crop" alt="NQMT1310" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQMT1310</span><span class="badge badge-code">90g</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Dispensa</span>
+<h3>NQMT1310</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Italia</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="alcolici">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=1400&q=85&auto=format&fit=crop" data-title="GLQ004 · Alcolici" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice GLQ004, formato 0,7L · 35%. Origine: Toscana." data-category="Alcolici" data-code="GLQ004" data-size="0,7L · 35%" data-origin="Toscana">
+<img src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80&auto=format&fit=crop" alt="GLQ004" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> GLQ004</span><span class="badge badge-code">0,7L · 35%</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Alcolici</span>
+<h3>GLQ004</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Toscana</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d2" data-category="alcolici">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=1400&q=85&auto=format&fit=crop" data-title="GLQ001 · Alcolici" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice GLQ001, formato 4,5L · 35%. Origine: Toscana." data-category="Alcolici" data-code="GLQ001" data-size="4,5L · 35%" data-origin="Toscana">
+<img src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80&auto=format&fit=crop" alt="GLQ001" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> GLQ001</span><span class="badge badge-code">4,5L · 35%</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Alcolici</span>
+<h3>GLQ001</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Toscana</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d3" data-category="alcolici">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=1400&q=85&auto=format&fit=crop" data-title="NQM006 · Alcolici" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQM006, formato 0,7L. Origine: Toscana." data-category="Alcolici" data-code="NQM006" data-size="0,7L" data-origin="Toscana">
+<img src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80&auto=format&fit=crop" alt="NQM006" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQM006</span><span class="badge badge-code">0,7L</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Alcolici</span>
+<h3>NQM006</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Toscana</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article><article class="product-card reveal d1" data-category="alcolici">
+<div class="product-image" data-lightbox data-src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=1400&q=85&auto=format&fit=crop" data-title="NQM020 · Alcolici" data-desc="Prodotto del catalogo 2026 Noi, la Qualità. Codice NQM020, formato 0,7L. Origine: Toscana." data-category="Alcolici" data-code="NQM020" data-size="0,7L" data-origin="Toscana">
+<img src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80&auto=format&fit=crop" alt="NQM020" loading="lazy">
+<div class="product-badges"><span class="badge badge-region"><i class="fas fa-barcode"></i> NQM020</span><span class="badge badge-code">0,7L</span></div>
+<button class="product-fav"><i class="far fa-heart"></i></button>
+</div>
+<div class="product-content">
+<span class="product-category">Alcolici</span>
+<h3>NQM020</h3>
+<p>Referenza del catalogo 2026. Contatta l'ufficio commerciale per il listino completo e le condizioni di fornitura.</p>
+<div class="product-meta"><span class="origin"><i class="fas fa-map-pin"></i> Toscana</span><a href="contatti.html" class="product-link"><span data-i18n="product.details">Richiedi</span> <i class="fas fa-arrow-right"></i></a></div>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section" style="background:var(--cream-warm);padding-top:60px;padding-bottom:60px;">
+<div class="cta-banner reveal">
+<div class="cta-banner-content">
+<h2 data-i18n="cta.title">Pronto a <span class="accent">iniziare</span>?</h2>
+<p data-i18n="cta.desc">Contatta il nostro ufficio commerciale per ricevere il catalogo completo 2026 e le condizioni di fornitura.</p>
+<div class="cta-banner-actions">
+<a href="contatti.html" class="btn btn-primary"><span data-i18n="cta.btn1">Richiedi listino</span> <i class="fas fa-arrow-right"></i></a>
+<a href="tel:+390666995093" class="btn btn-ghost"><i class="fas fa-phone"></i> <span data-i18n="cta.btn2">Chiamaci ora</span></a>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<img src="assets/images/logo-noilaqualita.svg" alt="Noi, la Qualità">
+<p data-i18n="footer.brand">Gruppo Noi, la Qualità S.r.l. — Distribuzione all'ingrosso di prodotti alimentari italiani d'eccellenza. Dal 1911.</p>
+<div class="footer-social">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h4 data-i18n="footer.catalog">Catalogo</h4>
+<ul>
+<li><a href="catalogo.html"><i class="fas fa-circle"></i> <span data-i18n="cat.pasta">Pasta & Riso</span></a></li>
+<li><a href="catalogo.html"><i class="fas fa-circle"></i> <span data-i18n="cat.deli">Salumi & Formaggi</span></a></li>
+<li><a href="catalogo.html"><i class="fas fa-circle"></i> <span data-i18n="cat.pantry">Dispensa</span></a></li>
+<li><a href="catalogo.html"><i class="fas fa-circle"></i> <span data-i18n="cat.spirits">Alcolici</span></a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4 data-i18n="footer.company">Azienda</h4>
+<ul>
+<li><a href="storia.html"><i class="fas fa-circle"></i> <span data-i18n="footer.about">Chi siamo</span></a></li>
+<li><a href="brand.html"><i class="fas fa-circle"></i> <span data-i18n="nav.brand">Brand</span></a></li>
+<li><a href="contatti.html"><i class="fas fa-circle"></i> <span data-i18n="footer.contact">Contatti</span></a></li>
+<li><a href="contatti.html"><i class="fas fa-circle"></i> <span data-i18n="footer.shipping">Spedizioni e Resi</span></a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4 data-i18n="footer.contact">Contatti</h4>
+<div class="footer-contact-item">
+<i class="fas fa-location-dot"></i>
+<div class="fci-text"><strong data-i18n="footer.address.label">Sede legale e operativa</strong>Viale C. Sabatini, 161<br>00144 Roma (RM)</div>
+</div>
+<div class="footer-contact-item">
+<i class="fas fa-phone"></i>
+<div class="fci-text"><strong data-i18n="footer.phone.label">Telefono</strong><a href="tel:+390666995093">+39 06 66995093</a><br><a href="tel:+393791413514">+39 379 141 3514</a></div>
+</div>
+<div class="footer-contact-item">
+<i class="fas fa-envelope"></i>
+<div class="fci-text"><strong data-i18n="footer.email.label">Email</strong><a href="mailto:info@noilaqualita.it">info@noilaqualita.it</a></div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Gruppo Noi, la Qualità S.r.l. · <span data-i18n="footer.rights">Tutti i diritti riservati.</span></p>
+<div class="fb-links">
+<a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+<a href="#" data-i18n="footer.cookies">Cookie Policy</a>
+<a href="#" data-i18n="footer.terms">Termini e Condizioni</a>
+</div>
+</div>
+</div>
+</footer>
+<button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+<div class="lightbox" id="lightbox">
+<button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fas fa-times"></i></button>
+<div class="lightbox-content">
+<div class="lightbox-image"><img id="lightboxImg" src="" alt=""></div>
+<div class="lightbox-body">
+<span class="lightbox-eyebrow" id="lightboxCat">Prodotto</span>
+<h3 id="lightboxTitle">Titolo</h3>
+<p id="lightboxDesc">Descrizione</p>
+<div class="lightbox-meta">
+<div class="lightbox-meta-row"><span data-i18n="lightbox.code">Codice</span><span id="lightboxCode">—</span></div>
+<div class="lightbox-meta-row"><span data-i18n="lightbox.size">Formato</span><span id="lightboxSize">—</span></div>
+<div class="lightbox-meta-row"><span data-i18n="lightbox.origin">Origine</span><span id="lightboxOrigin">—</span></div>
+</div>
+</div>
+</div>
+</div>
+<script src="assets/js/translations.js"></script>
+<script src="assets/js/animations.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
